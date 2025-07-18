@@ -1,5 +1,9 @@
 import ddsp
 import ddsp.training
+Synthesizer.synth = @Autoencoder
+Autoencoder.n_samples = 64000
+Autoencoder.loss_type = 'spectral'
+
 
 # Macros:
 # ==============================================================================
