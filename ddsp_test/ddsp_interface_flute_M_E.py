@@ -56,8 +56,8 @@ def make_fossilscape(audio_path, output_base, modes):
 # === Configuration ===
 GIN_FILE   = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\models\flute\operative_config-0.gin'
 CKPT_FILE  = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\models\flute\ckpt-20000'
-INPUT_WAV  = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\audio\input_stone.wav'
-OUTPUT_WAV = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\output_flute\output2.wav'
+INPUT_WAV  = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\audio\dishwasher.wav'
+OUTPUT_WAV = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\output_flute\dishwasher_output2.wav'
 OUTPUT_DIR = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\output_flute\processed'
 
 TARGET_SR  = 16000

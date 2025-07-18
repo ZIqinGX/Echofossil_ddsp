@@ -9,12 +9,12 @@ import random
 
 # === 路径配置 ===
 INPUT_WAV   = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\audio\input_stone.wav'
-IR_WAV      = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\ir\1a_marble_hall.wav'
+IR_WAV      = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\ir\2b_mine.wav'
 DDSP_WAV    = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\output_flute\processed\fossilscape_2_underwater_memory.wav'
 
 OUTPUT_DIR  = r'C:\Users\OS\Desktop\MusicRecordingTransfeer\ddsp_test\output_flute\schemeB'
-CONV_WAV    = os.path.join(OUTPUT_DIR, 'stone_marble_conv.wav')
-LOOPED_WAV  = os.path.join(OUTPUT_DIR, 'stone_marble_looped.wav')
+CONV_WAV    = os.path.join(OUTPUT_DIR, 'stone_mine2b_conv.wav')
+LOOPED_WAV  = os.path.join(OUTPUT_DIR, 'stone_mine2b_looped.wav')
 
 TARGET_SR   = 16000  # 统一采样率
 os.makedirs(OUTPUT_DIR, exist_ok=True)
